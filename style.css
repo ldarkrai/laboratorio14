@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Kaushan+Script&family=Nanum+Pen+Script&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Sour Gummy', sans-serif;}
+
+body{
+	background-color: antiquewhite;
+}
+
+/*header{
+
+	padding: 10px;
+	margin: 0px;
+	text-align: center;
+	border-bottom: solid 1px black;
+}*/
+
+nav{
+	position: fixed;
+	top: 0%;
+	width: 100%;
+	background-color: rgb(30, 82, 253);
+	padding: 1em 0;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	z-index: 100;
+}
+
+/*nav {
+
+	color: white;
+	padding: 1em 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	z-index: 100;
+}*/
+
+.productos{
+	color: white;
+	text-decoration: none;
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	gap: 2em;
+}
+
+.productos a{
+	color: white;
+	text-decoration: none;
+	padding: 8px 16px;
+	transition: background-color 0.3s;
+}
+
+.productos a:hover{
+	background-color: rgb(255, 255, 255);
+	border-radius: 4px;
+	color:	rgb(30, 82, 253);
+}
+
+.desplegable{
+	position: relative;
+}
+
+.subproductos{
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background-color: rgb(30, 82, 253);
+	list-style-type: none;
+	padding: 0;
+	min-width: 120px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.subproductos li{
+	width: 100%;
+}
+
+.subproductos li a{
+	display: block;
+	padding: 8px 16px;
+	color: white;
+}
+
+.subproductos li a:hover{
+	background-color: white;
+	color: rgb(30, 82, 253);
+}
+
+.desplegable:hover .subproductos{
+	display: block;
+}
+
+h1{
+	text-align: center;
+}
+
+.muestra {
+	display: flex;
+	background-color: rgb(243, 218, 186);
+	box-shadow: 0px 1px 1px 0px rgba(3, 3, 3, 0.87);
+	margin-top: 0px;
+	text-align: center;
+	padding: 50px;
+	justify-content: center;
+	gap: 20px;
+}
+
+.imgp {
+	max-width: 50%;
+	border-radius: 10px;
+	border-bottom: solid 2px rgba(0, 0, 0, 0.575);
+	border-right: solid 2px rgba(0, 0, 0, 0.493);
+}
+
+.container-img{
+	margin: 10px;
+	max-width: 50%;
+}
+
+.muestra p{
+	text-align: center;
+}
+
+footer{
+	display: flex;
+	gap: 20%;
+	margin: 15px 0px 0px 0px;
+	background-color: #303030;
+	color: white;
+	padding-left: 50px;
+	padding-right: 100px;
+}
+
+.contact h3{
+	color: rgb(0, 89, 255);
+}
+
+.pata {
+	padding-top: 50px;
+	padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	gap: 10px;
+}
+
+.pata img{
+	width: 32px;
+}
+
+.inicial{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
